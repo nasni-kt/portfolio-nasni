@@ -114,16 +114,16 @@ html,body {
 }
 @media(max-width:576px){
     .home-img{
-       
+        display: flex;
+        justify-content: center;
         width:100%;
         height: auto;
-        /* margin-left: 10px; */
         padding: 0;
     }
     .home-img img{
       width:270px;
         height: auto;
-        margin: -350px 0 0 20px;
+        margin: -350px 0 0 0;
     }
     .home-clr{
         max-width: 270px;
@@ -134,22 +134,30 @@ html,body {
         /* margin-right: 25px; */
    
     }
-}
-@media (min-width:768px) and (max-width:1329px) {
-    .home-img{
-       
-        width:270px;
-        height: auto;
-        margin: 0px 0 0 -200px;
-    } 
-    .home-text{
-        margin-left: 300px;
+    .dad{
+        width:300px;
     }
 }
-@media (min-width:1329px) {
-    .navbar-brand{
-        margin-left: 110px;
-        
+@media (min-width: 768px) and (max-width: 1000px) {
+    .home-clr {
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto; /* Center the background element */
+        background-color: rgba(229, 183, 159, 0.288); /* Ensure background color is visible */
+    }
+
+    .home-img img {
+        width: 100%;
+        height: auto; /* Ensure the image maintains aspect ratio */
+        position: relative; /* Change from absolute to relative */
+        margin: 0; /* Reset margin */
+        top: 100px; /* Ensure image is placed correctly */
+    }
+
+    .home-img {
+        display: flex;
+        justify-content: center;
+        position: relative;
     }
 }
 .home-text{
