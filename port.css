@@ -3,9 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-body {
-    font-family: 'Roboto Flex', sans-serif;
-    color: #333;
+html,body {
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 300;
+    overflow-x: hidden;
+    z-index: 2;
+    height: 100%;  
 }
 .navbar {
     background-color:white;
@@ -15,13 +18,22 @@ body {
     /* transition: background-color 0.3s ease; */
     border-bottom: 1px solid rgba(165, 162, 162, 0.495);
 }
-
+.navbar-brand {
+    padding-left: 15px; /* Adjust as needed */
+}
+.navbar-nav {
+    margin-right: 15px; /* Adjust as needed */
+}
+.nav-item {
+    margin-right: 10px; /* Adjust as needed */
+}
 .navbar-toggler {
     width:27px;
     height: 13px;
     position: relative;
     transition: .5s ease-in-out;
     margin:0 20px  10px 0; 
+ 
 }
 .navbar-toggler,
 .navbar-toggler:focus,
@@ -103,22 +115,24 @@ body {
 @media(max-width:576px){
     .home-img{
        
-        width:370px;
+        width:100%;
         height: auto;
-        margin: 0px 0 0 0px;
+        /* margin-left: 10px; */
+        padding: 0;
     }
     .home-img img{
       width:270px;
         height: auto;
-        margin: -350px 0 0 0px;
+        margin: -350px 0 0 20px;
     }
     .home-clr{
-        max-width: 370px;
+        max-width: 270px;
         max-height: 300px;
-        margin: 150px 0 0 30px;
+        margin: 150px 0 0 40px;
     }
     .navbar-toggler {
-        margin-right: 25px;
+        /* margin-right: 25px; */
+   
     }
 }
 @media (min-width:768px) and (max-width:1329px) {
@@ -135,6 +149,7 @@ body {
 @media (min-width:1329px) {
     .navbar-brand{
         margin-left: 110px;
+        
     }
 }
 .home-text{
@@ -232,7 +247,12 @@ max-width: 1265px;
     .about .container{
         margin-top: 70px;
         }
-
+.abt-img img{
+    position: absolute;
+    max-width: 370px;
+    height: auto;
+    margin: -90px 0 0 0;
+}
 }
 /* ================================================================ */
 .skills-section {
