@@ -138,12 +138,12 @@ html,body {
         width:300px;
     }
 }
-@media (min-width: 768px) and (max-width: 1000px) {
+@media (min-width: 768px) and (max-width: 1200px) {
     .home-clr {
         max-width: 100%;
         height: auto;
         margin: 0 auto; /* Center the background element */
-        background-color: rgba(229, 183, 159, 0.288); /* Ensure background color is visible */
+        background-color: rgba(229, 183, 159, 0.288);
     }
 
     .home-img img {
@@ -160,6 +160,12 @@ html,body {
         position: relative;
     }
 }
+@media(min-width: 1200px) {
+.dad{
+    margin-left: -150px;
+}
+}
+
 .home-text{
     text-align: justify;
 }
