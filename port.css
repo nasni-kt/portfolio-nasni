@@ -91,7 +91,7 @@ html,body {
 .nav-link{
     transition: transform 0.3s;
 }
-.nav-link:hover{
+.nav-link:hover {
     color: #a24545;
     transform: scale(1.1);
 }
@@ -438,15 +438,14 @@ font-size:medium;
     margin-bottom: 1rem;
     padding: 10px; 
     border: 1px solid #ccc;
-    /* border-radius: 5px; */
     background: #f9f9f9;
     box-sizing: border-box;
-    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, transform 0.3s;
 }
-.connect input:focus,
-.connect textarea:focus {
-    border-color: var(--main-color);
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+.connect input:hover,
+.connect textarea:hover {
+    background: #f5c0c020;
+    transform: scale(1.04);
 }
 .connect input[type="submit"] {
     background-color: var(--snd-main-color);
@@ -454,7 +453,7 @@ font-size:medium;
     background-color: #d197909a;
     border: none;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, transform 0.3s;
 }
 .connect input[type="submit"]:hover {
     background-color:#bc8c88c7 ;
