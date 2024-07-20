@@ -152,9 +152,10 @@ html,body {
 }
 .home-text h1 {
     font-family: 'Lexend', sans-serif;
-    font-size: 2.5rem;
+    font-size: 2.9rem;
     font-weight: 690;
     color: #bc8c88;
+   
 }
 .home-text p {
     font-size: 1.115rem;
@@ -170,7 +171,7 @@ html,body {
     height: 70px;
 }
 .social a {
-    border: 1px solid  #555;
+    border: 1px solid  #55555550;
     background: transparent;
     width: 3rem; 
     height: 2.5rem; 
@@ -179,7 +180,7 @@ html,body {
     justify-content: center; 
     margin: 3rem 1.5rem 3rem 0;
     transition: 0.3s ease;
-    border-radius: 35%; 
+    border-radius: 25%; 
     text-decoration: none; 
     color: rgb(134, 47, 33); 
     transition: transform 0.3s;
@@ -193,6 +194,7 @@ html,body {
     background-color: #bc8c888f;
     padding: 9px;
     transition: transform 0.3s;
+    border-radius: 3px;
 }
 .home-btn:hover{
     background-color: #bc8c88c7;
