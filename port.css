@@ -727,3 +727,47 @@ display: none!important;
     font-weight: 400;
     line-height: 1.6;
 }
+@media (max-width: 576px) {
+    .education {
+        padding: 30px 10px;
+        height: 100vh;
+    }
+
+    .education h2 {
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .timeline-items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .timeline-items::before {
+        width: 2px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .timeline-item {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .timeline-dot {
+        left: 50%;
+        top: 0;
+        transform: translateX(-50%);
+    }
+
+    .timeline-date {
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+
+    .timeline-content {
+        width: 100%;
+        padding: 15px;
+    }
+}
