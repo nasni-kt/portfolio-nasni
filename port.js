@@ -90,3 +90,9 @@ document.addEventListener('DOMContentLoaded', function() {
         window.open('assets/nasni-resume.pdf', '_blank');
     });
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('edu').addEventListener('click', function() {
+        window.open('education.html', '_self'); // Open in the same tab
+    });
+});

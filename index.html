@@ -23,10 +23,10 @@
 </head>
 <body>
     <section class="header" id="home">
-        <div class="custom-container container-fluid">
+        <div class=" container-fluid">
             <div class="row">
                 <nav class="navbar navbar-expand-md">
-                    <a class="navbar-brand px-4 px-md-5  mt-2" href="#"><h4 style="color: rgb(168, 91, 86);"><span style="color: #d67c6e;">N</span>ASNI</h4></a>
+                    <a class="navbar-brand px-4 px-md-5  mt-2" href="#"><h4 style="color: rgb(168, 91, 86);">NASNI</h4></a>
                     <button class="navbar-toggler collapsed d-md-none flex-column justify-content-around mt-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="toggler-icon bottom-bar"></span>
                     <span class="toggler-icon top-bar"></span>
@@ -90,7 +90,7 @@
                 <p class="col-md-9 py-2 mx-auto hidden">
                      I'm Nasni KT, a web design enthusiast and newly minted CS graduate, passionate about creating remarkable digital experiences. Leveraging my expertise in HTML, CSS, JavaScript, and Flutter, I design and develop websites that impress, engage, and drive results. Let's team up and turn your vision into a beautiful, functional, and impactful online presence!.
                 </p>
-                <button class="home-btn mt-4 mb-5 hidden" type="button">EDUCATION <i class="bi bi-arrow-right"></i></button>
+                <button class="home-btn mt-4 mb-5 hidden" id="edu" type="button">EDUCATION <i class="bi bi-arrow-right"></i></button>
             </div>
         </div>
     </section>
@@ -174,7 +174,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6 order-lg-2">
                             <div class="mockup">
-                                <img src="assets/eco-img.jpeg" alt="Laptop Mockup" class="mockup-img" loading="lazy">
+                                <img src="assets/eco-img.jpeg" alt="Laptop Mockup" class="mockup-img hidden" loading="lazy">
                             </div>                  
                     </div>
                     <div class="col-lg-6 order-lg-1">
@@ -199,7 +199,7 @@
                     <div class="col-lg-6">
                         <div class="project-img-wrapper">
                             <div class="mockup">
-                                <img src="assets/Black Minimalist Website Mockup Instagram Post (1).png" alt="Laptop Mockup" class="mockup-img align-self-start" loading="lazy">
+                                <img src="assets/Black Minimalist Website Mockup Instagram Post (1).png" alt="Laptop Mockup" class="mockup-img align-self-start hidden" loading="lazy">
                             </div>
                         </div>
                     </div>
@@ -225,7 +225,7 @@
                     <div class="col-lg-6 order-lg-2">
                         <div class="project-img-wrapper">
                             <div class="mockup">
-                                <img src="assets/mob2.jpg" alt="Laptop Mockup" class="ost-img align-self-end" loading="lazy">
+                                <img src="assets/mob2.jpg" alt="Laptop Mockup" class="ost-img align-self-end hidden" loading="lazy">
                             </div>
                         </div>
                     </div>
@@ -251,7 +251,7 @@
     <div class="container">
         <div class="row d-flex g-5 py-md-4 py-0">
             <div class="connect-map col-md-5 col-12  col-lg-4 col-sm-6 hidden d-flex justify-content-center align-items-center">
-                <img src="assets/con22.png" alt="Map" class="img-fluid" loading="lazy">
+                <img src="assets/con22.png" alt="Map" class="img-fluid hidden" loading="lazy">
             </div>
             <div class="connect-form col-md-6 col-12 mt-3 col-lg-4 col-sm-6 hidden">
                 <form id="contact-form" onsubmit="return validateAndSendMail(event)">
