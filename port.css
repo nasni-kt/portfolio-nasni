@@ -219,7 +219,7 @@ max-width: 1265px;
     font-family: "Arimo", sans-serif;
     margin-top: 170px;
     font-size: 1.8rem;
-    font-weight: 290;
+    /* font-weight: 290; */
 }
 .about-text p{
     text-align: justify;
