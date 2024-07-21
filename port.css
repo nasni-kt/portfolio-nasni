@@ -224,7 +224,7 @@ max-width: 1265px;
     font-family: "Arimo", sans-serif;
     margin-top: 170px;
     font-size: 1.6rem;
-    font-weight: 290;
+    font-weight: 490;
 }
 .about-text p{
     text-align: justify;
@@ -257,7 +257,7 @@ max-width: 1265px;
 .skills-section h1 {
     margin-bottom: 40px;
     font-size: 1.6rem;
-    font-weight: 290;
+    font-weight: 490;
     color: #333;
     /* font-family: "Bona Nova SC", serif; */
     font-family: "Arimo", sans-serif;
@@ -307,7 +307,7 @@ max-width: 1265px;
 .projects-section h1 {
     margin-bottom: 40px;
     font-size: 1.6rem;
-    font-weight: 290;
+    font-weight: 490;
     color: #333;
     font-family: "Arimo", sans-serif;
     /* font-weight: 300; */
@@ -644,7 +644,7 @@ display: none!important;
 /* Education Section Styling */
 .education {
     padding: 70px 15px;
-    background: #f8f9fa;
+  
 }
 
 .education h2 {
@@ -722,7 +722,7 @@ display: none!important;
 }
 
 .timeline-content h3 {
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: #333;
     margin: 0 0 10px;
     font-weight: 600;
@@ -776,5 +776,13 @@ display: none!important;
     .timeline-content {
         width: 100%;
         padding: 15px;
+    }
+    .timeline-item:nth-child(odd) {
+        padding-right: calc(42% + 30px);
+        text-align: right;
+    }
+    
+    .timeline-item:nth-child(even) {
+        padding-left: calc(42% + 30px);
     }
 }
