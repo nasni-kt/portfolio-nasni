@@ -221,7 +221,7 @@ max-width: 1265px;
     font-family: "Arimo", sans-serif;
     margin-top: 170px;
     font-size: 1.6rem;
-    /* font-weight: 290; */
+    font-weight: 290;
 }
 .about-text p{
     text-align: justify;
@@ -253,11 +253,12 @@ max-width: 1265px;
 }
 .skills-section h1 {
     margin-bottom: 40px;
-    font-size: 2rem;
+    font-size: 1.6rem;
+    font-weight: 290;
     color: #333;
     /* font-family: "Bona Nova SC", serif; */
     font-family: "Arimo", sans-serif;
-    font-weight: 300;
+    /* font-weight: 300; */
 }
 .skills-section h4 {
     color: #3333339f;
@@ -302,10 +303,11 @@ max-width: 1265px;
 }
 .projects-section h1 {
     margin-bottom: 40px;
-    font-size: 2rem;
+    font-size: 1.6rem;
+    font-weight: 290;
     color: #333;
     font-family: "Arimo", sans-serif;
-    font-weight: 300;
+    /* font-weight: 300; */
 }
 
 .project-card {
@@ -638,7 +640,7 @@ display: none!important;
 
 /* Education Section Styling */
 .education {
-    padding: 100px 15px;
+    padding: 70px 15px;
     background: #f8f9fa;
 }
 
