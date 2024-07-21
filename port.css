@@ -96,6 +96,10 @@ html,body {
     margin: -480px 0 0 0px;
 }
 @media(max-width:576px){
+    .home-text h1 {
+         font-size: 2.4rem!important;
+        font-weight: 690;
+    }
     .home-img{
         display: flex;
         justify-content: center;
@@ -155,7 +159,6 @@ html,body {
     font-size: 2.9rem;
     font-weight: 690;
     color: #bc8c88;
-   
 }
 .home-text p {
     font-size: 1.115rem;
