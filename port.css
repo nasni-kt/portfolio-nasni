@@ -11,12 +11,14 @@ html,body {
     height: 100%;  
 }
 .navbar {
-    background-color:white;
+    background-color:rgba(255, 255, 255, 0.647);
     max-width: 100%;
     position: fixed;
     z-index: 100 !important;
     border-bottom: 1px solid rgba(165, 162, 162, 0.495);
+    backdrop-filter: blur(15px); /* Apply blur to the background */
 }
+
 .navbar-toggler {
     width:27px;
     height: 13px;
@@ -122,6 +124,9 @@ html,body {
     }
     .home-text p {
         font-size:15px!important;
+    }
+    .navbar .collapse .nav-link{
+        height: 80px;
     }
 }
 @media (min-width: 768px) and (max-width: 1200px) {
