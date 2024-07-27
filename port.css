@@ -11,7 +11,7 @@ html,body {
     height: 100%;  
 }
 .navbar {
-    background-color:rgba(255, 255, 255, 0.647);
+    background-color:rgba(255, 255, 255, 0.507);
     max-width: 100%;
     position: fixed;
     z-index: 100 !important;
@@ -230,8 +230,12 @@ html,body {
   }
   
 /* ===================================================================== */
+.about{
+    background-color: #f8f9fa;
+}
 .about .container{
 max-width: 1265px;
+
 }
 .about-clr{
     position: relative;
@@ -277,7 +281,7 @@ max-width: 1265px;
 /* ================================================================ */
 .skills-section {
     padding: 60px 0;
-    background-color: #f8f9fa;
+    /* background-color: #f8f9fa; */
     text-align: center;
 }
 .skills-section h1 {
@@ -303,7 +307,7 @@ max-width: 1265px;
     margin:0 0  40px 0;
 }
 .skill-card {
-    background-color:rgba(229, 183, 159, 0.064);;
+    background-color:rgba(229, 183, 159, 0.064);
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 130px;
@@ -590,7 +594,7 @@ transition: color 0.3s;
 color: rgb(65, 108, 46);
 }
 .footer .f-icons{
-width:50%;
+width:70%;
 justify-content: space-around;
 }
 .footer .f-icon {
